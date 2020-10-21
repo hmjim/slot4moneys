@@ -1,0 +1,506 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 11:20:21
+* VERSION: 1.3.28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.17                                |7.2.17
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2020-03-26 23:10:39
+WP VERSION__________: 5.3.2
+DUP VERSION_________: 1.3.28
+DB__________________: 5.5.60
+DB TABLES___________: 18
+DB ROWS_____________: 32,967
+DB FILE SIZE________: 9.23MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.17 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16
+DOC ROOT____________: "/var/www/slot4money/data/www/new.slot4-money.com"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://new.slot4-money.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20200326_slot4moneymeavtomatynadengi_8dbd8f60db98f9cc3096_20200326231039_archive.zip"
+SIZE________________: 159.01MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/var/www/slot4money/data/www/new.slot4-money.com/20200326_slot4moneymeavtomatynadengi_8dbd8f60db98f9cc3096_20200326231039_archive.zip' -d '/var/www/slot4money/data/www/new.slot4-money.com' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 11:20:25 - RUNTIME: 4.2612 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 11:20:46
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.5.60 -- Build Server: 5.5.60
+FILE SIZE:	dup-database__8dbd8f6-26231039.sql (8.54MB)
+TIMEOUT:	5000
+MAXPACK:	1073741824
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[/var/www/slot4money/data/www/new.slot4-money.com/dup-installer/dup-installer-data__8dbd8f6-26231039.sql]
+COLLATE FB:	Off
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/var/www/slot4money/data/www/new.slot4-money.com/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	32967
+
+wp_commentmeta: (0)
+wp_comments: (3)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (389)
+wp_postmeta: (27846)
+wp_posts: (3309)
+wp_redirection_404: (802)
+wp_redirection_groups: (2)
+wp_redirection_items: (1)
+wp_redirection_logs: (7)
+wp_sticky: (43)
+wp_term_relationships: (379)
+wp_term_taxonomy: (7)
+wp_termmeta: (0)
+wp_terms: (7)
+wp_usermeta: (120)
+wp_users: (4)
+Removed '27' cache/transient rows
+
+INSERT DATA RUNTIME: 14.9080 sec.
+STEP-2 COMPLETE @ 11:21:01 - RUNTIME: 14.9130 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:21:12
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Slot4money  : автоматы на деньги"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/slot4money/data/www/slot4money.me"
+path_new______________: "/var/www/slot4money/data/www/new.slot4-money.com"
+siteurl_______________: "https://new.slot4-money.com"
+url_old_______________: "https://slot4money.me"
+url_new_______________: "https://new.slot4-money.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "slot4money_user"
+dbname________________: "slot4money_new"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   389][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 27846][PG:   8][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  3309][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_redirection_404"______________________________[ROWS:   802][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_redirection_groups"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_redirection_items"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_redirection_logs"_____________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_sticky"_______________________________________[ROWS:    43][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   379][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   120][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/slot4money/data/www/slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  2:"\/var\/www\/slot4money\/data\/www\/slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  3:"%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  4:"\var\www\slot4money\data\www\slot4money.me" ======> "/var/www/slot4money/data/www/new.slot4-money.com"
+	SEARCH  5:"\\var\\www\\slot4money\\data\\www\\slot4money.me" => "\/var\/www\/slot4money\/data\/www\/new.slot4-money.com"
+	SEARCH  6:"%5Cvar%5Cwww%5Cslot4money%5Cdata%5Cwww%5Cslot4money.me" => "%2Fvar%2Fwww%2Fslot4money%2Fdata%2Fwww%2Fnew.slot4-money.com"
+	SEARCH  7:"//slot4money.me" =================================> "//new.slot4-money.com"
+	SEARCH  8:"\/\/slot4money.me" ===============================> "\/\/new.slot4-money.com"
+	SEARCH  9:"%2F%2Fslot4money.me" =============================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 10:"//www.slot4money.me" =============================> "//new.slot4-money.com"
+	SEARCH 11:"\/\/www.slot4money.me" ===========================> "\/\/new.slot4-money.com"
+	SEARCH 12:"%2F%2Fwww.slot4money.me" =========================> "%2F%2Fnew.slot4-money.com"
+	SEARCH 13:"http://new.slot4-money.com" ======================> "https://new.slot4-money.com"
+	SEARCH 14:"http:\/\/new.slot4-money.com" ====================> "https:\/\/new.slot4-money.com"
+	SEARCH 15:"http%3A%2F%2Fnew.slot4-money.com" ================> "https%3A%2F%2Fnew.slot4-money.com"
+--------------------------------------
+SCANNED:	Tables:18 	|	 Rows:32919 	|	 Cells:195814 
+UPDATED:	Tables:6 	|	 Rows:4134 	|	 Cells:5658 
+ERRORS:		0 
+RUNTIME:	2.046500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""slot4money_new""
+	UPDATE DB_USER ""slot4money_user""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__8dbd8f6-26231039' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:21:14 - RUNTIME: 2.0706 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
