@@ -76,5 +76,7 @@ jQuery(document).ready(function($){
 			}, scroll_top_duration
 		);
 	});
+	// $('.header .banner-item-more:eq(7) .banner-item-img img').attr("src","https://slot4moneyslots.nw.r.appspot.com/mostbet4.jpg");
+	// $('.header .banner-item-more:eq(7) .banner-item-img img').css('min-height', '143px');
 
 });

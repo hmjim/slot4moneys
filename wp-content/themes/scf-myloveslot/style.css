@@ -1,0 +1,218 @@
+/*
+Theme Name: Myloveslot
+Version: 2.0.12
+Description: Myloveslot Theme
+Author: SerCRAFT
+*/
+#cboxTitle {
+    padding-left: 210px !important;
+    text-align: left;
+    white-space: nowrap;
+}
+/*Стандартные стили*/
+.alignnone {
+	margin: 5px 20px 20px 0;
+}
+.aligncenter, div.aligncenter {
+	margin: auto;
+}
+.alignright {
+	float:right;
+	margin: 5px 0 10px 20px;
+}
+.alignleft {
+	float:left;
+	margin: 5px 20px 10px 0;
+}
+.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+a img.alignright {
+	float:right;
+	margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+	margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+.wp-caption {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	max-width: 96%; /* Image does not overflow the content area */
+	padding: 5px 3px 10px;
+	text-align: center;
+}
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin:0;
+	max-width: 98.5%;
+	padding:0;
+	width: auto;
+}
+.wp-caption p.wp-caption-text {
+	font-size:11px;
+	line-height:17px;
+	margin:0;
+	padding:0 4px 5px;
+}
+
+/* CUSTOM STYLES */
+/*******************************************************/
+body:not(.home) .banner-item-more:nth-last-child(-n+5) {
+	display: none;
+}
+
+.fa-angle-down {
+	display: inline-block;
+	width: 10px;
+	height: 6px;
+	/* background-image: url('assets/img/icon_dropdown.png'); */
+	vertical-align: middle;
+}
+
+.casinoinet-btn-wr {
+	text-align: center;
+}
+.casinoinet-btn-more {
+	display: inline-block;
+	padding-bottom: 20px;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 9px;
+	color: #e6e3ea;
+	position: relative;
+	z-index: 4;
+}
+.casinoinet-btn-more::before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 1px;
+	left: 0;
+	bottom: 10px;
+}
+
+
+
+.breadcrumbs {
+	font-weight: 400;
+	color: #474646;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 4;
+}
+
+.search-string {
+	color: #26c63a;
+}
+
+.post-content {
+	font-size: 14px;
+}
+
+body a {
+	color: #ff0000;
+}
+
+@media screen and (max-width: 700px) {
+#colorbox {left: 0px !important; right: 0px !important; width: 100% !important;}
+#cboxWrapper {border: 10px solid hsla(0, 0%, 0%, 0.5); border-radius: 5px; box-sizing: border-box;}
+#cboxTopLeft, #cboxTopCenter, #cboxTopRight, #cboxMiddleLeft, #cboxMiddleRight, #cboxBottomLeft, #cboxBottomCenter, #cboxBottomRight {display: none !important;}
+#cboxContent, #cboxLoadedContent, #cboxWrapper {width: 100% !important; height: auto !important;}
+.cboxPhoto {width: auto !important; height: auto !important; max-width: 100% !important; padding: 10px; box-sizing: border-box;}
+#cboxLoadedContent {margin-bottom: 25px;}
+#cboxClose {bottom: 5px; right: 5px;}
+#cboxPrevious {bottom: 5px; left: 5px;}
+#cboxNext {bottom: 5px; left: 32px;}
+#cboxCurrent {bottom: 9px; left: 63px;}
+#cboxTitle {padding-left: 215px !important; bottom: 9px;}
+}
+
+@media screen and (max-width: 575px) {
+body img {height: auto;}
+
+.myloveslot-items, .myloveslot-cas-items {text-align: center; margin-bottom: 10px;}
+.myloveslot-items .row, .myloveslot-cas-items .row {display: block;}
+.myloveslot-items .col-12, .myloveslot-cas-items .col-12 {width: 49%; float: none; display: inline-block; vertical-align: top;}
+.myloveslot-items .col-12:nth-child(odd), .myloveslot-cas-items .col-12:nth-child(odd) {padding-right: 7px;}
+.myloveslot-items .col-12:nth-child(even), .myloveslot-cas-items .col-12:nth-child(even) {padding-left: 7px;}
+.myloveslot-item {margin-bottom: 20px;}
+.myloveslot-item-title {padding: 0px 5px; box-sizing: border-box;}
+.myloveslot-item .myloveslot-item-btns a {width: 90%;}
+.myloveslot-item .myloveslot-item-btns a:first-child {position: absolute; top: 10%; margin-bottom: 0px;}
+.myloveslot-item .myloveslot-item-btns a:last-child {position: absolute; bottom: 10%;}
+
+.widget-games {flex-wrap: wrap; flex-direction: row;}
+.widget-games .widget-games-item {width: 50%;}
+.widget-games .widget-games-title {overflow: hidden;}
+
+.myloveslot-bg-wr {margin-bottom: 40px;}
+
+.myloveslot-rooms .myloveslot-pagination {display: none;}
+.myloveslot-rooms .myloveslot-rooms-slider {margin-bottom: 65px;}
+.myloveslot-rooms .swiper-wrapper {transform: translate3d(0px, 0px, 0px) !important; height: auto; display: block; text-align: center;}
+.myloveslot-rooms .swiper-slide {width: 49% !important; display: inline-block; vertical-align: top; margin-right: 0px !important; box-sizing: border-box;}
+.myloveslot-rooms .swiper-slide:nth-child(odd) {padding-right: 7px;}
+.myloveslot-rooms .swiper-slide:nth-child(even) {padding-left: 7px;}
+.myloveslot-rooms .myloveslot-room {margin: 12px auto;}
+.myloveslot-rooms .myloveslot-room-header {height: auto;}
+
+	/*.myloveslot-rooms .myloveslot-room {
+		margin: 20px auto;
+	}*/
+}
+@media screen and (max-width: 480px) {
+	.btn-main span {
+		font-size: 16px;
+	}
+	.myloveslot-rooms .myloveslot-rooms-heading {
+		font-size: 20px;
+	}
+	.myloveslot-rooms .myloveslot-rooms-heading span::after,
+	.myloveslot-rooms .myloveslot-rooms-heading span::before {
+		top: 0;
+	}
+
+.owl-carousel.owl-drag .owl-item .screen-item {text-align: center;}
+}
+@media screen and (max-width: 450px) {
+.alignleft, .alignright {float: none; margin: 5px auto 10px auto; display: block;}
+}
+@media screen and (max-width: 400px) {
+.widget-games .widget-games-item {width: 100%;}
+.myloveslot-item .myloveslot-item-btns a {line-height: 30px;}
+}
+
+@media screen and (max-width: 374px) {
+	.myloveslot-rooms .myloveslot-rooms-heading {
+		font-size: 16px;
+	}
+	.myloveslot-rooms .myloveslot-rooms-heading span::after,
+	.myloveslot-rooms .myloveslot-rooms-heading span::before {
+		top: -4px;
+	}
+}
+@media screen and (max-width: 350px) {
+.myloveslot-items .col-12, .myloveslot-cas-items .col-12 {width: 100%; padding-left: 15px !important; padding-right: 15px !important;}
+.myloveslot-item .myloveslot-item-btns a {line-height: 38px;}
+}

@@ -8,9 +8,11 @@ entrypoint: serve gae-app.php
 
 # Defines static handlers to serve WordPress assets
 handlers:
-- url: /(.*\.(htm|html|css|js))
+- url: /(.*\.(htm|html|xml|css|js))
   static_files: \1
-  upload: .*\.(htm|html|css|js)$
+  upload: .*\.(htm|html|xml|css|js)$
+  secure: always
+  redirect_http_response_code: 301
 
 - url: /wp-content/(.*\.(ico|jpg|jpeg|png|gif|woff|ttf|otf|eot|svg))
   static_files: wp-content/\1
