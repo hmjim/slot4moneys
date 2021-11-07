@@ -14,6 +14,9 @@ Disallow: /2015/
 Disallow: /gocasino/
 Disallow: /app/
 Disallow: */feed
+Disallow: /wp-json/
+Disallow: /bez-rubriki/slot-o-pol
+Disallow: /bez-rubriki/bratva
 
 User-agent: Yandex
 Disallow: /webstat
@@ -30,4 +33,7 @@ Disallow: /2015/
 Disallow: /gocasino/
 Disallow: /app/
 Disallow: */feed
+Disallow: /wp-json/
+Disallow: /bez-rubriki/slot-o-pol
+Disallow: /bez-rubriki/bratva
 Host: slot4moneyz.azurewebsites.net
